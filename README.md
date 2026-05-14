@@ -37,7 +37,6 @@ shift_table/
     constants.py             # Colors, column definitions
     layout.py                # WrapLayout for toolbar buttons
 HOWTO.md                     # Full development guide (English)
-jtable_Inst.md               # Documentation (Russian)
 ```
 
 ## Requirements
