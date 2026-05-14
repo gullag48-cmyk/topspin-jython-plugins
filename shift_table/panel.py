@@ -371,9 +371,6 @@ class ShiftTablePanel(JPanel):
         pick_table.setRowHeight(25)
         pick_table.setShowGrid(False)
         pick_table.setIntercellSpacing(_Dimension(0, 0))
-        pick_table.getColumnModel().getColumn(0).setCellRenderer(ResidueRenderer())
-        for col in range(1, len(COLUMNS)):
-            pick_table.getColumnModel().getColumn(col).setCellRenderer(PairSplitRenderer())
         header = pick_table.getTableHeader()
         header.setPreferredSize(_Dimension(header.getPreferredSize().width, 30))
 
